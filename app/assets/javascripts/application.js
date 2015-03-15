@@ -13,4 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap
+//= require modernizr.custom
+//= require classie
+//= require elastic_grid.encode
+//= elastic_grid
 //= require_tree .
