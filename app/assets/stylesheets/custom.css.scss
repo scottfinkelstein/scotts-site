@@ -1,0 +1,58 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/* Bootstrap Modifications */
+.navbar {
+        border:none;
+        border-radius:0;
+        margin-bottom:0;
+}
+
+.navbar-inverse {
+        /*background-color:#b3844d;*/ /*Stick with black for now*/
+
+}
+
+.center {
+        text-align:center;
+}
+
+.navbar-logo {
+        color:#FFFFFF;
+}
+
+.navbar-logo:hover {
+        color:#FFFFFF;
+        text-decoration:none;
+}
+
+ul.navbar-nav li a {
+        color:#FFFFFF !important;
+}
+
+#logo {
+        float:left;
+        margin-right:10px;
+        font-size:1.7em;
+        color:#FFFFFF;
+        padding-top:9px;
+        font-weight:bold;
+}
+
+#logo:hover {
+        text-decoration:none;
+}
+
+.jumbotron {
+        margin-top:0;
+        margin-bottom:0;
+        height:250px;
+        color:#FFFFFF;
+        text-shadow: black 0.3em 0.3em 0.3em;
+        background-image:image-url("background.jpg");
+        background-position:0% 25%;
+        background-size: cover;
+        background-repeat:no-repeat;
+}
+
+
