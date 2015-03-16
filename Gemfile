@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 # Use Bootstrap for style
 gem 'bootstrap-sass'
+# Use Font Awesome for glyphs
+gem 'font-awesome-sass'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
