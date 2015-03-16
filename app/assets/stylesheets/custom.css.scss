@@ -4,9 +4,6 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-h3 {
-	color:#006699;
-}
 
 .resume ul li {
         margin-left:25px;
@@ -56,7 +53,7 @@ ul.navbar-nav li a {
 .jumbotron {
         margin-top:0;
         margin-bottom:0;
-        height:250px;
+        /*height:250px;*/
         color:#FFFFFF;
         text-shadow: black 0.3em 0.3em 0.3em;
         /*background-image:image-url("background.jpg");
@@ -64,6 +61,7 @@ ul.navbar-nav li a {
         background-size: cover;
         background-repeat:no-repeat;*/
 	background-color:#428bca;
+	border-bottom:15px solid #DB8A11;
 }
 
 /* Elastic Grid Portfolio JQuery Plugin Custom Styles */
