@@ -59,20 +59,27 @@ ul.navbar-nav li a {
         margin-bottom:0;
         /*height:250px;*/
         color:#FFFFFF;
-        /*background-image:image-url("background.jpg");
-        background-position:0% 25%;
-        background-size: cover;
-        background-repeat:no-repeat;*/
+        /*background-image:image-url("background.jpg");*/
+        /*background-position:0% 25%;*/
+        /*background-size: cover;*/
+        /*background-repeat:no-repeat;*/
 	background-color:#428bca;
 	border-bottom:15px solid #DB8A11;
+	padding-top:20px;
+	padding-bottom:0;
 }
 
 .jumbotron h1, .jumbotron h2 {
 	text-shadow: rgba(0,0,0,0.5) 5px 5px 5px;
+	margin:0;
 }
 
 .jumbotron h2 {
 	font-weight:normal;
+}
+
+.social-media {
+	margin-top:10px;
 }
 
 /* Elastic Grid Portfolio JQuery Plugin Custom Styles */
