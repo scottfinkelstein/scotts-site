@@ -8,18 +8,18 @@ $(function() {
 		'items': [
  {
 'title' : 'AU2Go',
-'description' : 'AU2Go is a native app accessible from any smartphone, tablet or internet capable device. It provides important information at the fingertips of Adelphi University students, alumni, faculty, staff and visitors.',
+'description' : 'AU2Go is a native app accessible from any smartphone, tablet or internet capable device. It provides important information at the fingertips of Adelphi University students, alumni, faculty, staff and visitors. I programmed the iOS app and supervised the development of the Android build.',
 'thumbnail' : ['<%= asset_path "small/au2go_1.png" %>'],
 'large' : ['<%= asset_path "large/au2go_1.png" %>'],
 'button_list' :
 [
-{ 'title':'Link', 'url':'https://itunes.apple.com/us/app/au2go/id881440294?mt=8'}
+{ 'title':'Link', 'url':'http://it.adelphi.edu/catalog/mobile-app/'}
 ],
 'tags' : ['Objective-C', 'API Integration']
 },
 {
 	'title': 'eCampus',
-	'description': 'The Adelphi eCampus portal gives students, faculty, and administration secure access to applications and services in one location. Once logged in to eCampus, they can access their university email, access CLASS, Moodle, and much more.',
+	'description': 'The Adelphi eCampus portal gives students, faculty, and administration secure access to applications and services in one location. Once logged in to eCampus, they can access their university email, access CLASS, Moodle, and much more. Built upon the Liferay portal platform, I converted the static design mockup into Velocity template files, and built a Java portlet allowing site administrators to manage the rotating banners.',
 	'thumbnail': ['<%= asset_path "small/ecampus_1.png" %>', '<%= asset_path "small/ecampus_2.png" %>'],
 	'large': ['<%= asset_path "large/ecampus_1.png" %>', '<%= asset_path "large/ecampus_2.png" %>'],
 	'button_list': [
@@ -29,15 +29,15 @@ $(function() {
 },
 {
 	'title': 'AU2Go Mobile Web App',
-	'description': 'Launched in the Spring of 2010, the AU2Go mobile web app, was Adelphi University\'s first foray into the mobile landscape.',
-		'thumbnail': ['<%= asset_path "small/au2go_web_1.png" %>'],
-		'large': ['<%= asset_path "large/au2go_web_1.png" %>'],
+	'description': 'Launched in the Spring of 2010, the AU2Go mobile web app, was Adelphi University\'s first foray into the mobile landscape. Built using the JQTouch mobile framework along with PHP.',
+		'thumbnail': ['<%= asset_path "small/au2go_web_1.png" %>', '<%= asset_path "small/au2go_web_2.png" %>', '<%= asset_path "small/au2go_web_3.png" %>'],
+		'large': ['<%= asset_path "large/au2go_web_1.png" %>', '<%= asset_path "large/au2go_web_2.png" %>', '<%= asset_path "large/au2go_web_3.png" %>'],
 		'button_list':[],
 		'tags':['JavaScript', 'PHP']	
 },
 {
 	'title': 'Language Lab Tutoring Scheduler',
-	'description': 'PHP application allowing students to sign in and schedule an appointment with an available language lab tutor.',
+	'description': 'PHP application allowing students to sign in and schedule an appointment with an available language lab tutor. Integrates with custom API calls to our homegrown ERP for fetching and saving data. <b>Note: FERPA regulations require me to redact the names appearing in the screenshot.</b>',
 	'thumbnail': ['<%= asset_path "small/tutoring_schedule.png" %>'],
 	'large': ['<%= asset_path "large/tutoring_schedule.png" %>'],
 	'button_list': [
