@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore .htaccess file for Site5 server.
+/public/.htaccess
