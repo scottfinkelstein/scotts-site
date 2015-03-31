@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   get 'pages/index'
 
-  get 'pages/portfolio'
+  get 'portfolio' => 'pages#portfolio'
 
-  get 'pages/resume'
+  get 'resume' => 'pages#resume'
 
   root 'pages#index'
 
